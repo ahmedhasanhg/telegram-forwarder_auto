@@ -22,8 +22,8 @@ print("Starting...")
 
 # Basics
 APP_ID = config("17425623", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-SESSION = config("582ad9f35572c8c145024a4d4a6b8ae2")
+API_HASH = config("582ad9f35572c8c145024a4d4a6b8ae2", default=None)
+SESSION = config("1BJWap1sBu3V3fHgOpzwxS3SDiUpZ_kcMuBs2gurDtg0Cs4OMi3pC0i014BhiR8Q5QpizHWJXyW3tx7AwwO1OktoXVpBJ1TwvYClZF2ElINYDcVWFStj4YtgKujh92wasn0xfm-Eb4ordLsbKlUdZoYe3G0VFtvVRrX1yD8uuzqURY0GYiSPuHIIn_21-F9mGxdGTwOOhmrZtuJ34sODGpEQ5w6gPuZgxCZHiq7lPESTX87JgTMV_dWtiEBFy9jylfHbcUN5q26ols3MRqp1yO7zeitThBZO28qGmuF8QxFsuk40WufLa6kmav9ZYuCEGtdvAF68o3I3GNEzdVc7PAbFzf9EFVnk=")
 FROM_ = config("5313745789")
 TO_ = config("1781856717")
 
